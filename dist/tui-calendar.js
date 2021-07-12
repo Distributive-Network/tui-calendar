@@ -1,6 +1,6 @@
 /*!
  * TOAST UI Calendar
- * @version 1.13.1 | Tue Jul 06 2021
+ * @version 1.13.1 | Mon Jul 12 2021
  * @author NHN FE Development Lab <dl_javascript@nhn.com>
  * @license MIT
  */
@@ -9758,17 +9758,18 @@ Calendar.prototype._getWeekDayRange = function(date, startDayOfWeek, workweek) {
  * @param {boolean} toHide - Set true to hide schedules
  * @param {boolean} [render=true] - set true then render after change visible property each models
  */
- Calendar.prototype.toggleSchedules = function (filterObject, toHide, render) {
+Calendar.prototype.toggleSchedules = function(calendarId, toHide, render) {
     var ownSchedules = this._controller.schedules;
+
     render = util.isExisty(render) ? render : true;
-    //calendarId = util.isArray(calendarId) ? calendarId : [calendarId];
-    const orID = [filterObject['OR']]
-    ownSchedules.each(function (schedule) {
-        // const scheduleOR = schedule.title.split("-")[1].trim()
-        if (~util.inArray(schedule.calendarId, orID)) {
+    calendarId = util.isArray(calendarId) ? calendarId : [calendarId];
+
+    ownSchedules.each(function(schedule) {
+        if (~util.inArray(schedule.calendarId, calendarId)) {
             schedule.set('isVisible', !toHide);
         }
     });
+
     if (render) {
         this.render();
     }

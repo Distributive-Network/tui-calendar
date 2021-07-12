@@ -17,7 +17,7 @@ coverage
 .grunt
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+#build/Release
 
 # Dependency directory
 # Deployed apps should consider commenting this line out:
@@ -25,8 +25,8 @@ build/Release
 node_modules
 
 # Bower Components
-bower_components
-lib
+#bower_components
+#lib
 
 # IDEA
 .idea
@@ -58,9 +58,9 @@ tui.calendar
 *.vim
 
 # for local dev purpose
-demo-dev/
-build/
-markup
+#demo-dev/
+#build/
+#markup
 
 # performance tester fixtures
 perf/**/*.json
