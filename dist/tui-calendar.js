@@ -9752,24 +9752,26 @@ Calendar.prototype._getWeekDayRange = function(date, startDayOfWeek, workweek) {
     return [start, end];
 };
 
- /**
-     * Toggle schedules' visibility by calendar ID
-     * @param {string} calendarId - The calendar id value
-     * @param {boolean} toHide - Set true to hide schedules
-     * @param {boolean} [render=true] - set true then render after change visible property each models
-     */
-  Calendar.prototype.toggleSchedules = function (filterObj, render) {
+/**
+                    * Toggle schedules' visibility by calendar ID
+                    * @param {string} calendarId - The calendar id value
+                    * @param {boolean} toHide - Set true to hide schedules
+                    * @param {boolean} [render=true] - set true then render after change visible property each models
+                    */
+ Calendar.prototype.toggleSchedules = function (filterObj, render) {
     var ownSchedules = this._controller.schedules;
     render = util.isExisty(render) ? render : true;
     const orFilterArray = filterObj['ORIds']
     const surgeryFilterArray = filterObj['surgeryTypeIds']
     const pendingFilter = filterObj['pendingView']
+    const surgeons = filterObj['employees']
 
     ownSchedules.each(function (schedule) {
         if (~util.inArray(schedule.calendarId, orFilterArray)
             && ~util.inArray(schedule.raw.surgeryType, surgeryFilterArray)
             && (~util.inArray(schedule.isPending, [pendingFilter.pending]) || ~util.inArray(!schedule.isPending, [pendingFilter.realized]))
             && (pendingFilter.pending || pendingFilter.realized)
+            && ~util.inArray(schedule.raw.surgeonIdentifier, surgeons)
         ) {
             schedule.set('isVisible', true);
         }
