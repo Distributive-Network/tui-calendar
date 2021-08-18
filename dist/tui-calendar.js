@@ -9765,13 +9765,17 @@ Calendar.prototype._getWeekDayRange = function(date, startDayOfWeek, workweek) {
     const surgeryFilterArray = filterObj['surgeryTypeIds']
     const pendingFilter = filterObj['pendingView']
     const surgeons = filterObj['employees']
+    const startDate = filterObj['dateRange'][0]
+    const endDate = filterObj['dateRange'][1]
 
+    console.log('Pending filter array', pendingFilter)
     ownSchedules.each(function (schedule) {
         if (~util.inArray(schedule.calendarId, orFilterArray)
             && ~util.inArray(schedule.raw.surgeryType, surgeryFilterArray)
             && (~util.inArray(schedule.isPending, [pendingFilter.pending]) || ~util.inArray(!schedule.isPending, [pendingFilter.realized]))
             && (pendingFilter.pending || pendingFilter.realized)
             && ~util.inArray(schedule.raw.surgeonIdentifier, surgeons)
+            && schedule.start >= startDate && schedule.end <= endDate
         ) {
             schedule.set('isVisible', true);
         }
