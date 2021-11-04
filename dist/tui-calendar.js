@@ -9773,7 +9773,7 @@ Calendar.prototype._getWeekDayRange = function(date, startDayOfWeek, workweek) {
     console.log('Pending filter array', pendingFilter)
     ownSchedules.each(function (schedule) {
         if ( (~util.inArray(schedule.calendarId, orFilterArray) || !orFilterArray.length) 
-            && ~util.inArray(schedule.raw.procedureService, procedureServiceFilterArray)
+            && ~util.inArray(schedule.raw.procedureServiceId, procedureServiceFilterArray)
             && (~util.inArray(schedule.isPending, [pendingFilter.pending]) || ~util.inArray(!schedule.isPending, [pendingFilter.realized]))
             && (pendingFilter.pending || pendingFilter.realized)
             && ~util.inArray(schedule.raw.surgeonIdentifier, surgeons)
