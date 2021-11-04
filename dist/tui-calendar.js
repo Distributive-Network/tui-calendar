@@ -9762,7 +9762,7 @@ Calendar.prototype._getWeekDayRange = function(date, startDayOfWeek, workweek) {
     var ownSchedules = this._controller.schedules;
     render = util.isExisty(render) ? render : true;
     const orFilterArray = filterObj['ORIds']
-    const surgeryFilterArray = filterObj['surgeryTypeIds']
+    const procedureServiceFilterArray = filterObj['procedureServiceIds']
     const pendingFilter = filterObj['pendingView']
     const surgeons = filterObj['employees']
     const startDate = filterObj['dateRange'][0]
@@ -9771,7 +9771,7 @@ Calendar.prototype._getWeekDayRange = function(date, startDayOfWeek, workweek) {
     console.log('Pending filter array', pendingFilter)
     ownSchedules.each(function (schedule) {
         if (~util.inArray(schedule.calendarId, orFilterArray)
-            && ~util.inArray(schedule.raw.surgeryType, surgeryFilterArray)
+            && ~util.inArray(schedule.raw.procedureService, procedureServiceFilterArray)
             && (~util.inArray(schedule.isPending, [pendingFilter.pending]) || ~util.inArray(!schedule.isPending, [pendingFilter.realized]))
             && (pendingFilter.pending || pendingFilter.realized)
             && ~util.inArray(schedule.raw.surgeonIdentifier, surgeons)
