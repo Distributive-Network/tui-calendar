@@ -25,14 +25,14 @@
 /******/ 		if (installedModules[moduleId]) {
 /******/ 			return installedModules[moduleId].exports;
                 /******/
-}
+            }
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = installedModules[moduleId] = {
 /******/ 			i: moduleId,
 /******/ 			l: false,
 /******/ 			exports: {}
                 /******/
-};
+            };
 /******/
 /******/ 		// Execute the module function
 /******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
@@ -43,7 +43,7 @@
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
             /******/
-}
+        }
 /******/
 /******/
 /******/ 	// expose the modules object (__webpack_modules__)
@@ -57,19 +57,19 @@
 /******/ 		if (!__webpack_require__.o(exports, name)) {
 /******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
                 /******/
-}
+            }
             /******/
-};
+        };
 /******/
 /******/ 	// define __esModule on exports
 /******/ 	__webpack_require__.r = function (exports) {
 /******/ 		if (typeof Symbol !== 'undefined' && Symbol.toStringTag) {
 /******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
                 /******/
-}
+            }
 /******/ 		Object.defineProperty(exports, '__esModule', { value: true });
             /******/
-};
+        };
 /******/
 /******/ 	// create a fake namespace object
 /******/ 	// mode & 1: value is a module id, require it
@@ -86,7 +86,7 @@
 /******/ 		if (mode & 2 && typeof value != 'string') for (var key in value) __webpack_require__.d(ns, key, function (key) { return value[key]; }.bind(null, key));
 /******/ 		return ns;
             /******/
-};
+        };
 /******/
 /******/ 	// getDefaultExport function for compatibility with non-harmony modules
 /******/ 	__webpack_require__.n = function (module) {
@@ -96,7 +96,7 @@
 /******/ 		__webpack_require__.d(getter, 'a', getter);
 /******/ 		return getter;
             /******/
-};
+        };
 /******/
 /******/ 	// Object.prototype.hasOwnProperty.call
 /******/ 	__webpack_require__.o = function (object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
@@ -108,7 +108,7 @@
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
         /******/
-})
+    })
 /************************************************************************/
 /******/({
 
@@ -122,7 +122,7 @@
                 module.exports = __webpack_require__(/*! handlebars/runtime */ "./node_modules/handlebars/dist/cjs/handlebars.runtime.js");
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars.runtime.js":
 /*!****************************************************************!*\
@@ -201,7 +201,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/base.js":
 /*!*************************************************************!*\
@@ -330,7 +330,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/decorators.js":
 /*!*******************************************************************!*\
@@ -359,7 +359,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/decorators/inline.js":
 /*!**************************************************************************!*\
@@ -401,7 +401,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/exception.js":
 /*!******************************************************************!*\
@@ -478,7 +478,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/helpers.js":
 /*!****************************************************************!*\
@@ -547,7 +547,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/helpers/block-helper-missing.js":
 /*!*************************************************************************************!*\
@@ -599,7 +599,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/helpers/each.js":
 /*!*********************************************************************!*\
@@ -715,10 +715,10 @@
                     //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL2xpYi9oYW5kbGViYXJzL2hlbHBlcnMvZWFjaC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7O3FCQU1PLFVBQVU7O3lCQUNLLGNBQWM7Ozs7cUJBRXJCLFVBQVMsUUFBUSxFQUFFO0FBQ2hDLFVBQVEsQ0FBQyxjQUFjLENBQUMsTUFBTSxFQUFFLFVBQVMsT0FBTyxFQUFFLE9BQU8sRUFBRTtBQUN6RCxRQUFJLENBQUMsT0FBTyxFQUFFO0FBQ1osWUFBTSwyQkFBYyw2QkFBNkIsQ0FBQyxDQUFDO0tBQ3BEOztBQUVELFFBQUksRUFBRSxHQUFHLE9BQU8sQ0FBQyxFQUFFO1FBQ2pCLE9BQU8sR0FBRyxPQUFPLENBQUMsT0FBTztRQUN6QixDQUFDLEdBQUcsQ0FBQztRQUNMLEdBQUcsR0FBRyxFQUFFO1FBQ1IsSUFBSSxZQUFBO1FBQ0osV0FBVyxZQUFBLENBQUM7O0FBRWQsUUFBSSxPQUFPLENBQUMsSUFBSSxJQUFJLE9BQU8sQ0FBQyxHQUFHLEVBQUU7QUFDL0IsaUJBQVcsR0FDVCx5QkFBa0IsT0FBTyxDQUFDLElBQUksQ0FBQyxXQUFXLEVBQUUsT0FBTyxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUMsQ0FBQyxHQUFHLEdBQUcsQ0FBQztLQUNyRTs7QUFFRCxRQUFJLGtCQUFXLE9BQU8sQ0FBQyxFQUFFO0FBQ3ZCLGFBQU8sR0FBRyxPQUFPLENBQUMsSUFBSSxDQUFDLElBQUksQ0FBQyxDQUFDO0tBQzlCOztBQUVELFFBQUksT0FBTyxDQUFDLElBQUksRUFBRTtBQUNoQixVQUFJLEdBQUcsbUJBQVksT0FBTyxDQUFDLElBQUksQ0FBQyxDQUFDO0tBQ2xDOztBQUVELGFBQVMsYUFBYSxDQUFDLEtBQUssRUFBRSxLQUFLLEVBQUUsSUFBSSxFQUFFO0FBQ3pDLFVBQUksSUFBSSxFQUFFO0FBQ1IsWUFBSSxDQUFDLEdBQUcsR0FBRyxLQUFLLENBQUM7QUFDakIsWUFBSSxDQUFDLEtBQUssR0FBRyxLQUFLLENBQUM7QUFDbkIsWUFBSSxDQUFDLEtBQUssR0FBRyxLQUFLLEtBQUssQ0FBQyxDQUFDO0FBQ3pCLFlBQUksQ0FBQyxJQUFJLEdBQUcsQ0FBQyxDQUFDLElBQUksQ0FBQzs7QUFFbkIsWUFBSSxXQUFXLEVBQUU7QUFDZixjQUFJLENBQUMsV0FBVyxHQUFHLFdBQVcsR0FBRyxLQUFLLENBQUM7U0FDeEM7T0FDRjs7QUFFRCxTQUFHLEdBQ0QsR0FBRyxHQUNILEVBQUUsQ0FBQyxPQUFPLENBQUMsS0FBSyxDQUFDLEVBQUU7QUFDakIsWUFBSSxFQUFFLElBQUk7QUFDVixtQkFBVyxFQUFFLG1CQUNYLENBQUMsT0FBTyxDQUFDLEtBQUssQ0FBQyxFQUFFLEtBQUssQ0FBQyxFQUN2QixDQUFDLFdBQVcsR0FBRyxLQUFLLEVBQUUsSUFBSSxDQUFDLENBQzVCO09BQ0YsQ0FBQyxDQUFDO0tBQ047O0FBRUQsUUFBSSxPQUFPLElBQUksT0FBTyxPQUFPLEtBQUssUUFBUSxFQUFFO0FBQzFDLFVBQUksZUFBUSxPQUFPLENBQUMsRUFBRTtBQUNwQixhQUFLLElBQUksQ0FBQyxHQUFHLE9BQU8sQ0FBQyxNQUFNLEVBQUUsQ0FBQyxHQUFHLENBQUMsRUFBRSxDQUFDLEVBQUUsRUFBRTtBQUN2QyxjQUFJLENBQUMsSUFBSSxPQUFPLEVBQUU7QUFDaEIseUJBQWEsQ0FBQyxDQUFDLEVBQUUsQ0FBQyxFQUFFLENBQUMsS0FBSyxPQUFPLENBQUMsTUFBTSxHQUFHLENBQUMsQ0FBQyxDQUFDO1dBQy9DO1NBQ0Y7T0FDRixNQUFNLElBQUksTUFBTSxDQUFDLE1BQU0sSUFBSSxPQUFPLENBQUMsTUFBTSxDQUFDLE1BQU0sQ0FBQyxRQUFRLENBQUMsRUFBRTtBQUMzRCxZQUFNLFVBQVUsR0FBRyxFQUFFLENBQUM7QUFDdEIsWUFBTSxRQUFRLEdBQUcsT0FBTyxDQUFDLE1BQU0sQ0FBQyxNQUFNLENBQUMsUUFBUSxDQUFDLEVBQUUsQ0FBQztBQUNuRCxhQUFLLElBQUksRUFBRSxHQUFHLFFBQVEsQ0FBQyxJQUFJLEVBQUUsRUFBRSxDQUFDLEVBQUUsQ0FBQyxJQUFJLEVBQUUsRUFBRSxHQUFHLFFBQVEsQ0FBQyxJQUFJLEVBQUUsRUFBRTtBQUM3RCxvQkFBVSxDQUFDLElBQUksQ0FBQyxFQUFFLENBQUMsS0FBSyxDQUFDLENBQUM7U0FDM0I7QUFDRCxlQUFPLEdBQUcsVUFBVSxDQUFDO0FBQ3JCLGFBQUssSUFBSSxDQUFDLEdBQUcsT0FBTyxDQUFDLE1BQU0sRUFBRSxDQUFDLEdBQUcsQ0FBQyxFQUFFLENBQUMsRUFBRSxFQUFFO0FBQ3ZDLHVCQUFhLENBQUMsQ0FBQyxFQUFFLENBQUMsRUFBRSxDQUFDLEtBQUssT0FBTyxDQUFDLE1BQU0sR0FBRyxDQUFDLENBQUMsQ0FBQztTQUMvQztPQUNGLE1BQU07O0FBQ0wsY0FBSSxRQUFRLFlBQUEsQ0FBQzs7QUFFYixnQkFBTSxDQUFDLElBQUksQ0FBQyxPQUFPLENBQUMsQ0FBQyxPQUFPLENBQUMsVUFBQSxHQUFHLEVBQUk7Ozs7QUFJbEMsZ0JBQUksUUFBUSxLQUFLLFNBQVMsRUFBRTtBQUMxQiwyQkFBYSxDQUFDLFFBQVEsRUFBRSxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUM7YUFDaEM7QUFDRCxvQkFBUSxHQUFHLEdBQUcsQ0FBQztBQUNmLGFBQUMsRUFBRSxDQUFDO1dBQ0wsQ0FBQyxDQUFDO0FBQ0gsY0FBSSxRQUFRLEtBQUssU0FBUyxFQUFFO0FBQzFCLHlCQUFhLENBQUMsUUFBUSxFQUFFLENBQUMsR0FBRyxDQUFDLEVBQUUsSUFBSSxDQUFDLENBQUM7V0FDdEM7O09BQ0Y7S0FDRjs7QUFFRCxRQUFJLENBQUMsS0FBSyxDQUFDLEVBQUU7QUFDWCxTQUFHLEdBQUcsT0FBTyxDQUFDLElBQUksQ0FBQyxDQUFDO0tBQ3JCOztBQUVELFdBQU8sR0FBRyxDQUFDO0dBQ1osQ0FBQyxDQUFDO0NBQ0oiLCJmaWxlIjoiZWFjaC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7XG4gIGFwcGVuZENvbnRleHRQYXRoLFxuICBibG9ja1BhcmFtcyxcbiAgY3JlYXRlRnJhbWUsXG4gIGlzQXJyYXksXG4gIGlzRnVuY3Rpb25cbn0gZnJvbSAnLi4vdXRpbHMnO1xuaW1wb3J0IEV4Y2VwdGlvbiBmcm9tICcuLi9leGNlcHRpb24nO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbihpbnN0YW5jZSkge1xuICBpbnN0YW5jZS5yZWdpc3RlckhlbHBlcignZWFjaCcsIGZ1bmN0aW9uKGNvbnRleHQsIG9wdGlvbnMpIHtcbiAgICBpZiAoIW9wdGlvbnMpIHtcbiAgICAgIHRocm93IG5ldyBFeGNlcHRpb24oJ011c3QgcGFzcyBpdGVyYXRvciB0byAjZWFjaCcpO1xuICAgIH1cblxuICAgIGxldCBmbiA9IG9wdGlvbnMuZm4sXG4gICAgICBpbnZlcnNlID0gb3B0aW9ucy5pbnZlcnNlLFxuICAgICAgaSA9IDAsXG4gICAgICByZXQgPSAnJyxcbiAgICAgIGRhdGEsXG4gICAgICBjb250ZXh0UGF0aDtcblxuICAgIGlmIChvcHRpb25zLmRhdGEgJiYgb3B0aW9ucy5pZHMpIHtcbiAgICAgIGNvbnRleHRQYXRoID1cbiAgICAgICAgYXBwZW5kQ29udGV4dFBhdGgob3B0aW9ucy5kYXRhLmNvbnRleHRQYXRoLCBvcHRpb25zLmlkc1swXSkgKyAnLic7XG4gICAgfVxuXG4gICAgaWYgKGlzRnVuY3Rpb24oY29udGV4dCkpIHtcbiAgICAgIGNvbnRleHQgPSBjb250ZXh0LmNhbGwodGhpcyk7XG4gICAgfVxuXG4gICAgaWYgKG9wdGlvbnMuZGF0YSkge1xuICAgICAgZGF0YSA9IGNyZWF0ZUZyYW1lKG9wdGlvbnMuZGF0YSk7XG4gICAgfVxuXG4gICAgZnVuY3Rpb24gZXhlY0l0ZXJhdGlvbihmaWVsZCwgaW5kZXgsIGxhc3QpIHtcbiAgICAgIGlmIChkYXRhKSB7XG4gICAgICAgIGRhdGEua2V5ID0gZmllbGQ7XG4gICAgICAgIGRhdGEuaW5kZXggPSBpbmRleDtcbiAgICAgICAgZGF0YS5maXJzdCA9IGluZGV4ID09PSAwO1xuICAgICAgICBkYXRhLmxhc3QgPSAhIWxhc3Q7XG5cbiAgICAgICAgaWYgKGNvbnRleHRQYXRoKSB7XG4gICAgICAgICAgZGF0YS5jb250ZXh0UGF0aCA9IGNvbnRleHRQYXRoICsgZmllbGQ7XG4gICAgICAgIH1cbiAgICAgIH1cblxuICAgICAgcmV0ID1cbiAgICAgICAgcmV0ICtcbiAgICAgICAgZm4oY29udGV4dFtmaWVsZF0sIHtcbiAgICAgICAgICBkYXRhOiBkYXRhLFxuICAgICAgICAgIGJsb2NrUGFyYW1zOiBibG9ja1BhcmFtcyhcbiAgICAgICAgICAgIFtjb250ZXh0W2ZpZWxkXSwgZmllbGRdLFxuICAgICAgICAgICAgW2NvbnRleHRQYXRoICsgZmllbGQsIG51bGxdXG4gICAgICAgICAgKVxuICAgICAgICB9KTtcbiAgICB9XG5cbiAgICBpZiAoY29udGV4dCAmJiB0eXBlb2YgY29udGV4dCA9PT0gJ29iamVjdCcpIHtcbiAgICAgIGlmIChpc0FycmF5KGNvbnRleHQpKSB7XG4gICAgICAgIGZvciAobGV0IGogPSBjb250ZXh0Lmxlbmd0aDsgaSA8IGo7IGkrKykge1xuICAgICAgICAgIGlmIChpIGluIGNvbnRleHQpIHtcbiAgICAgICAgICAgIGV4ZWNJdGVyYXRpb24oaSwgaSwgaSA9PT0gY29udGV4dC5sZW5ndGggLSAxKTtcbiAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICAgIH0gZWxzZSBpZiAoZ2xvYmFsLlN5bWJvbCAmJiBjb250ZXh0W2dsb2JhbC5TeW1ib2wuaXRlcmF0b3JdKSB7XG4gICAgICAgIGNvbnN0IG5ld0NvbnRleHQgPSBbXTtcbiAgICAgICAgY29uc3QgaXRlcmF0b3IgPSBjb250ZXh0W2dsb2JhbC5TeW1ib2wuaXRlcmF0b3JdKCk7XG4gICAgICAgIGZvciAobGV0IGl0ID0gaXRlcmF0b3IubmV4dCgpOyAhaXQuZG9uZTsgaXQgPSBpdGVyYXRvci5uZXh0KCkpIHtcbiAgICAgICAgICBuZXdDb250ZXh0LnB1c2goaXQudmFsdWUpO1xuICAgICAgICB9XG4gICAgICAgIGNvbnRleHQgPSBuZXdDb250ZXh0O1xuICAgICAgICBmb3IgKGxldCBqID0gY29udGV4dC5sZW5ndGg7IGkgPCBqOyBpKyspIHtcbiAgICAgICAgICBleGVjSXRlcmF0aW9uKGksIGksIGkgPT09IGNvbnRleHQubGVuZ3RoIC0gMSk7XG4gICAgICAgIH1cbiAgICAgIH0gZWxzZSB7XG4gICAgICAgIGxldCBwcmlvcktleTtcblxuICAgICAgICBPYmplY3Qua2V5cyhjb250ZXh0KS5mb3JFYWNoKGtleSA9PiB7XG4gICAgICAgICAgLy8gV2UncmUgcnVubmluZyB0aGUgaXRlcmF0aW9ucyBvbmUgc3RlcCBvdXQgb2Ygc3luYyBzbyB3ZSBjYW4gZGV0ZWN0XG4gICAgICAgICAgLy8gdGhlIGxhc3QgaXRlcmF0aW9uIHdpdGhvdXQgaGF2ZSB0byBzY2FuIHRoZSBvYmplY3QgdHdpY2UgYW5kIGNyZWF0ZVxuICAgICAgICAgIC8vIGFuIGl0ZXJtZWRpYXRlIGtleXMgYXJyYXkuXG4gICAgICAgICAgaWYgKHByaW9yS2V5ICE9PSB1bmRlZmluZWQpIHtcbiAgICAgICAgICAgIGV4ZWNJdGVyYXRpb24ocHJpb3JLZXksIGkgLSAxKTtcbiAgICAgICAgICB9XG4gICAgICAgICAgcHJpb3JLZXkgPSBrZXk7XG4gICAgICAgICAgaSsrO1xuICAgICAgICB9KTtcbiAgICAgICAgaWYgKHByaW9yS2V5ICE9PSB1bmRlZmluZWQpIHtcbiAgICAgICAgICBleGVjSXRlcmF0aW9uKHByaW9yS2V5LCBpIC0gMSwgdHJ1ZSk7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG5cbiAgICBpZiAoaSA9PT0gMCkge1xuICAgICAgcmV0ID0gaW52ZXJzZSh0aGlzKTtcbiAgICB9XG5cbiAgICByZXR1cm4gcmV0O1xuICB9KTtcbn1cbiJdfQ==
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js":
 /*!*******************************************************************************!*\
@@ -756,7 +756,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/helpers/if.js":
 /*!*******************************************************************!*\
@@ -815,7 +815,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/helpers/log.js":
 /*!********************************************************************!*\
@@ -854,7 +854,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/helpers/lookup.js":
 /*!***********************************************************************!*\
@@ -883,7 +883,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/helpers/with.js":
 /*!*********************************************************************!*\
@@ -939,7 +939,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/internal/create-new-lookup-object.js":
 /*!******************************************************************************************!*\
@@ -974,7 +974,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js":
 /*!******************************************************************************!*\
@@ -1060,7 +1060,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/internal/wrapHelper.js":
 /*!****************************************************************************!*\
@@ -1092,7 +1092,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/logger.js":
 /*!***************************************************************!*\
@@ -1152,7 +1152,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/no-conflict.js":
 /*!********************************************************************!*\
@@ -1183,10 +1183,10 @@
                     //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2xpYi9oYW5kbGViYXJzL25vLWNvbmZsaWN0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7cUJBQWUsVUFBUyxVQUFVLEVBQUU7O0FBRWxDLE1BQUksSUFBSSxHQUFHLE9BQU8sTUFBTSxLQUFLLFdBQVcsR0FBRyxNQUFNLEdBQUcsTUFBTTtNQUN4RCxXQUFXLEdBQUcsSUFBSSxDQUFDLFVBQVUsQ0FBQzs7QUFFaEMsWUFBVSxDQUFDLFVBQVUsR0FBRyxZQUFXO0FBQ2pDLFFBQUksSUFBSSxDQUFDLFVBQVUsS0FBSyxVQUFVLEVBQUU7QUFDbEMsVUFBSSxDQUFDLFVBQVUsR0FBRyxXQUFXLENBQUM7S0FDL0I7QUFDRCxXQUFPLFVBQVUsQ0FBQztHQUNuQixDQUFDO0NBQ0giLCJmaWxlIjoibm8tY29uZmxpY3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBmdW5jdGlvbihIYW5kbGViYXJzKSB7XG4gIC8qIGlzdGFuYnVsIGlnbm9yZSBuZXh0ICovXG4gIGxldCByb290ID0gdHlwZW9mIGdsb2JhbCAhPT0gJ3VuZGVmaW5lZCcgPyBnbG9iYWwgOiB3aW5kb3csXG4gICAgJEhhbmRsZWJhcnMgPSByb290LkhhbmRsZWJhcnM7XG4gIC8qIGlzdGFuYnVsIGlnbm9yZSBuZXh0ICovXG4gIEhhbmRsZWJhcnMubm9Db25mbGljdCA9IGZ1bmN0aW9uKCkge1xuICAgIGlmIChyb290LkhhbmRsZWJhcnMgPT09IEhhbmRsZWJhcnMpIHtcbiAgICAgIHJvb3QuSGFuZGxlYmFycyA9ICRIYW5kbGViYXJzO1xuICAgIH1cbiAgICByZXR1cm4gSGFuZGxlYmFycztcbiAgfTtcbn1cbiJdfQ==
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/runtime.js":
 /*!****************************************************************!*\
@@ -1571,7 +1571,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/safe-string.js":
 /*!********************************************************************!*\
@@ -1599,7 +1599,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/dist/cjs/handlebars/utils.js":
 /*!**************************************************************!*\
@@ -1736,7 +1736,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/handlebars/runtime.js":
 /*!********************************************!*\
@@ -1751,7 +1751,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
@@ -1783,7 +1783,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/css/main.styl":
 /*!***************************!*\
@@ -1795,7 +1795,7 @@
                 // extracted by mini-css-extract-plugin
 
                 /***/
-}),
+            }),
 
 /***/ "./src/index.js":
 /*!**********************!*\
@@ -1848,10 +1848,10 @@
                     module.exports = Calendar;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/array.js":
 /*!********************************!*\
@@ -2150,7 +2150,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/autoScroll.js":
 /*!*************************************!*\
@@ -2407,10 +2407,10 @@
                     module.exports = AutoScroll;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/collection.js":
 /*!*************************************!*\
@@ -2817,7 +2817,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/common.js":
 /*!*********************************!*\
@@ -3119,7 +3119,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/datetime.js":
 /*!***********************************!*\
@@ -3789,10 +3789,10 @@
                     module.exports = datetime;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/dirty.js":
 /*!********************************!*\
@@ -4009,7 +4009,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/domevent.js":
 /*!***********************************!*\
@@ -4442,7 +4442,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/domutil.js":
 /*!**********************************!*\
@@ -5109,7 +5109,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/dw.js":
 /*!*****************************!*\
@@ -5249,7 +5249,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/floatingLayer.js":
 /*!****************************************!*\
@@ -5446,7 +5446,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/intlUtil.js":
 /*!***********************************!*\
@@ -5571,10 +5571,10 @@
                     module.exports = intlUtil;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/model.js":
 /*!********************************!*\
@@ -5738,7 +5738,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/point.js":
 /*!********************************!*\
@@ -6091,7 +6091,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/reqAnimFrame.js":
 /*!***************************************!*\
@@ -6159,10 +6159,10 @@
                     };
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/timezone.js":
 /*!***********************************!*\
@@ -6658,7 +6658,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/common/vlayout.js":
 /*!**********************************!*\
@@ -6807,298 +6807,335 @@
                         panel.setHeight(null, heightList.shift());
                     });
 
-                    this.refresh();
-                };
+                    /**
+                                        * Toggle schedules' visibility by calendar ID
+                                        * @param {string} calendarId - The calendar id value
+                                        * @param {boolean} toHide - Set true to hide schedules
+                                        * @param {boolean} [render=true] - set true then render after change visible property each models
+                                        */
+                    Calendar.prototype.toggleSchedules = function (filterObj, render) {
+                        var ownSchedules = this._controller.schedules;
+                        render = util.isExisty(render) ? render : true;
+                        const orFilterArray = filterObj['ORIds']
+                        const isORFilterEmpty = Array.isArray(orFilterArray) && orFilterArray.length
 
-                /**
-                 * Get next panel instance by specific panel
-                 * @param {VPanel} panel - panel instance
-                 * @returns {VPanel} next panel
-                 */
-                VLayout.prototype.nextPanel = function (panel) {
-                    return this.panels[panel.index + 1];
-                };
+                        const procedureServiceFilterArray = filterObj['procedureServiceIds']
+                        const pendingFilter = filterObj['pendingView']
+                        const surgeons = filterObj['employees']
+                        const startDate = filterObj['dateRange'][0]
+                        const endDate = filterObj['dateRange'][1]
 
-                /**
-                 * Get previous panel instance by specific panel
-                 * @param {VPanel} panel - panel instance
-                 * @returns {VPanel} previous panel
-                 */
-                VLayout.prototype.prevPanel = function (panel) {
-                    return this.panels[panel.index - 1];
-                };
-
-                /**
-                 * Initialize resizing guide element
-                 * @param {HTMLElement} element - element to use guide element after cloned
-                 * @param {number} top - top pixel value for guide element
-                 * @returns {HTMLElement} cloned element == guide element
-                 */
-                VLayout.prototype._initializeGuideElement = function (element, top) {
-                    var cloned = element.cloneNode(true);
-
-                    domutil.addClass(cloned, config.classname('splitter-guide'));
-                    this._refreshGuideElement(cloned, top);
-                    this.container.appendChild(cloned);
-
-                    return cloned;
-                };
-
-                /**
-                 * Refresh guide element position
-                 * @param {HTMLElement} element - guide element
-                 * @param {number} top - top pixel value for guide element
-                 */
-                VLayout.prototype._refreshGuideElement = function (element, top) {
-                    element.style.top = top + 'px';
-                };
-
-                /**
-                 * Clear guide element position
-                 * @param {HTMLElement} element - guide element
-                 */
-                VLayout.prototype._clearGuideElement = function (element) {
-                    domutil.remove(element);
-                };
-
-                /**
-                 * Resize overall panels size
-                 * @param {VPanel} splPanel - splitter panel instance
-                 * @param {number} startY - dragstart Y position
-                 * @param {number} mouseY - dragend Y position
-                 */
-                VLayout.prototype._resize = function (splPanel, startY, mouseY) {
-                    var diffY = startY - mouseY,
-                        resizedHeight = mAbs(diffY),
-                        resizeMap = [],
-                        toDown = mouseY > startY,
-                        backwardMethod = toDown ? 'prevPanel' : 'nextPanel',
-                        forwardMethod = toDown ? 'nextPanel' : 'prevPanel',
-                        cursor, resizeInfo;
-
-                    cursor = this[backwardMethod](splPanel);
-                    resizeInfo = cursor.getResizeInfoByGrowth(resizedHeight);
-                    resizeMap.push([cursor, resizeInfo[0]]);
-
-                    for (cursor = this[forwardMethod](cursor);
-                        util.isExisty(cursor);
-                        cursor = this[forwardMethod](cursor)) {
-                        if (cursor.isSplitter()) {
-                            continue;
-                        }
-
-                        resizeInfo = cursor.getResizeInfoByGrowth(-resizedHeight);
-                        resizeMap.push([cursor, resizeInfo[0]]);
-                        resizedHeight -= resizeInfo[1];
-                    }
-
-                    util.forEach(resizeMap, function (pair) {
-                        pair[0].setHeight(null, pair[1], true);
-                        pair[0].fire('resize');
-                    });
-                };
-
-                /**
-                 * Get summation of splitter and panel's minimum height upper and below of supplied splitter
-                 * @param {VPanel} splPanel - splitter panel instance
-                 * @returns {number[]} upper and below splitter's height and panel minimum height summation.
-                 */
-                VLayout.prototype._getMouseYAdditionalLimit = function (splPanel) {
-                    var upper = 0,
-                        below = 0,
-                        cursor,
-                        func = function (panel) {
-                            if (panel.isSplitter()) {
-                                return panel.getHeight();
+                        console.log('Pending filter array', pendingFilter)
+                        ownSchedules.each(function (schedule) {
+                            if ((~util.inArray(schedule.calendarId, orFilterArray) || !orFilterArray.length)
+                                && ~util.inArray(schedule.raw.procedureServiceId, procedureServiceFilterArray)
+                                && (~util.inArray(schedule.isPending, [pendingFilter.pending]) || ~util.inArray(!schedule.isPending, [pendingFilter.realized]))
+                                && (pendingFilter.pending || pendingFilter.realized)
+                                && ~util.inArray(schedule.raw.surgeonIdentifier, surgeons)
+                                && schedule.start >= startDate && schedule.end <= endDate
+                            ) {
+                                schedule.set('isVisible', true);
                             }
 
-                            return panel.options.minHeight;
-                        };
+                            else {
+                                schedule.set('isVisible', false);
+                            }
+                        });
 
-                    for (cursor = this.prevPanel(splPanel);
-                        util.isExisty(cursor);
-                        cursor = this.prevPanel(cursor)) {
-                        upper += func(cursor);
-                    }
-
-                    for (cursor = this.nextPanel(splPanel);
-                        util.isExisty(cursor);
-                        cursor = this.nextPanel(cursor)) {
-                        below += func(cursor);
-                    }
-
-                    return [upper, below];
-                };
-
-                /**********
-                 * Drag Handlers
-                 **********/
-
-                /**
-                 * Drag start schedule handler
-                 * @param {object} e - drag start schedule data
-                 */
-                VLayout.prototype._onDragStart = function (e) {
-                    var oEvent = e.originEvent,
-                        target = e.target,
-                        splIndex = domutil.getData(target, 'panelIndex'),
-                        splPanel = this.panels[splIndex],
-                        splHeight = splPanel.getHeight(),
-                        splOffsetY = domevent.getMousePosition(oEvent, target)[1],
-                        mouseY = domevent.getMousePosition(oEvent, this.container)[1],
-                        guideElement = this._initializeGuideElement(target, mouseY);
-
-                    splPanel.addClass(config.classname('splitter-focused'));
-
-                    this._dragData = {
-                        splPanel: splPanel,
-                        splOffsetY: splOffsetY,
-                        guideElement: guideElement,
-                        startY: mouseY - splOffsetY,
-                        minY: 0,
-                        maxY: this.getViewBound().height - splHeight
+                        if (render) {
+                            this.render();
+                        }
                     };
 
-                    if (!util.browser.msie) {
-                        domutil.addClass(document.body, config.classname('resizing'));
-                    }
-                };
-
-                /**
-                 * Drag schedule handler
-                 * @param {object} e - drag schedule data
-                 */
-                VLayout.prototype._onDrag = function (e) {
-                    var dragData = this._dragData,
-                        mouseY = domevent.getMousePosition(e.originEvent, this.container)[1];
-
-                    mouseY = common.limit(mouseY - dragData.splOffsetY, [dragData.minY], [dragData.maxY]);
-
-                    this._refreshGuideElement(dragData.guideElement, mouseY);
-                };
-
-                /**
-                 * Drag end schedule handler
-                 * @fires VLayout#resize
-                 * @param {object} e - dragend schedule data
-                 */
-                VLayout.prototype._onDragEnd = function (e) {
-                    var dragData = this._dragData,
-                        asideMinMax = this._getMouseYAdditionalLimit(dragData.splPanel),
-                        mouseY = domevent.getMousePosition(e.originEvent, this.container)[1];
-
-                    // mouseY value can't exceed summation of splitter height and panel's minimum height based on target splitter.
-                    mouseY = common.limit(
-                        mouseY - dragData.splOffsetY,
-                        [dragData.minY + asideMinMax[0]],
-                        [dragData.maxY - asideMinMax[1]]
-                    );
-
-                    this._resize(dragData.splPanel, dragData.startY, mouseY);
+                    /**
+                     * Get next panel instance by specific panel
+                     * @param {VPanel} panel - panel instance
+                     * @returns {VPanel} next panel
+                     */
+                    VLayout.prototype.nextPanel = function (panel) {
+                        return this.panels[panel.index + 1];
+                    };
 
                     /**
-                     * @event VLayout#resize
-                     * @type {object}
-                     * @property {number[]} layoutData - layout data after resized
+                     * Get previous panel instance by specific panel
+                     * @param {VPanel} panel - panel instance
+                     * @returns {VPanel} previous panel
                      */
-                    this.fire('resize', {
-                        layoutData: this.getLayoutData()
-                    });
+                    VLayout.prototype.prevPanel = function (panel) {
+                        return this.panels[panel.index - 1];
+                    };
 
-                    this._dragData = null;
-                    this._clearGuideElement(dragData.guideElement);
-                    dragData.splPanel.removeClass(config.classname('splitter-focused'));
-                    domutil.removeClass(document.body, config.classname('resizing'));
-                };
+                    /**
+                     * Initialize resizing guide element
+                     * @param {HTMLElement} element - element to use guide element after cloned
+                     * @param {number} top - top pixel value for guide element
+                     * @returns {HTMLElement} cloned element == guide element
+                     */
+                    VLayout.prototype._initializeGuideElement = function (element, top) {
+                        var cloned = element.cloneNode(true);
 
-                /**********
-                 * Methods
-                 **********/
+                        domutil.addClass(cloned, config.classname('splitter-guide'));
+                        this._refreshGuideElement(cloned, top);
+                        this.container.appendChild(cloned);
 
-                /**
-                 * refresh each panels
-                 */
-                VLayout.prototype.refresh = function () {
-                    var panelToFillHeight = [];
-                    var layoutHeight = this.getViewBound().height;
-                    var usedHeight = 0;
-                    var remainHeight;
+                        return cloned;
+                    };
 
-                    if (!layoutHeight) {
-                        return;
-                    }
+                    /**
+                     * Refresh guide element position
+                     * @param {HTMLElement} element - guide element
+                     * @param {number} top - top pixel value for guide element
+                     */
+                    VLayout.prototype._refreshGuideElement = function (element, top) {
+                        element.style.top = top + 'px';
+                    };
 
-                    util.forEach(this.panels, function (panel) {
-                        if (panel.options.autoHeight) {
-                            panelToFillHeight.push(panel);
-                        } else {
-                            usedHeight += panel.getHeight();
+                    /**
+                     * Clear guide element position
+                     * @param {HTMLElement} element - guide element
+                     */
+                    VLayout.prototype._clearGuideElement = function (element) {
+                        domutil.remove(element);
+                    };
+
+                    /**
+                     * Resize overall panels size
+                     * @param {VPanel} splPanel - splitter panel instance
+                     * @param {number} startY - dragstart Y position
+                     * @param {number} mouseY - dragend Y position
+                     */
+                    VLayout.prototype._resize = function (splPanel, startY, mouseY) {
+                        var diffY = startY - mouseY,
+                            resizedHeight = mAbs(diffY),
+                            resizeMap = [],
+                            toDown = mouseY > startY,
+                            backwardMethod = toDown ? 'prevPanel' : 'nextPanel',
+                            forwardMethod = toDown ? 'nextPanel' : 'prevPanel',
+                            cursor, resizeInfo;
+
+                        cursor = this[backwardMethod](splPanel);
+                        resizeInfo = cursor.getResizeInfoByGrowth(resizedHeight);
+                        resizeMap.push([cursor, resizeInfo[0]]);
+
+                        for (cursor = this[forwardMethod](cursor);
+                            util.isExisty(cursor);
+                            cursor = this[forwardMethod](cursor)) {
+                            if (cursor.isSplitter()) {
+                                continue;
+                            }
+
+                            resizeInfo = cursor.getResizeInfoByGrowth(-resizedHeight);
+                            resizeMap.push([cursor, resizeInfo[0]]);
+                            resizedHeight -= resizeInfo[1];
                         }
-                    });
 
-                    remainHeight = (layoutHeight - usedHeight) / panelToFillHeight.length;
+                        util.forEach(resizeMap, function (pair) {
+                            pair[0].setHeight(null, pair[1], true);
+                            pair[0].fire('resize');
+                        });
+                    };
 
-                    util.forEach(panelToFillHeight, function (panel) {
-                        panel.setHeight(null, remainHeight);
-                    });
-                };
+                    /**
+                     * Get summation of splitter and panel's minimum height upper and below of supplied splitter
+                     * @param {VPanel} splPanel - splitter panel instance
+                     * @returns {number[]} upper and below splitter's height and panel minimum height summation.
+                     */
+                    VLayout.prototype._getMouseYAdditionalLimit = function (splPanel) {
+                        var upper = 0,
+                            below = 0,
+                            cursor,
+                            func = function (panel) {
+                                if (panel.isSplitter()) {
+                                    return panel.getHeight();
+                                }
 
-                /**
-                 * add panel
-                 * @param {PanelOptions} options - options for panel
-                 * @param {container} [container] - container element
-                 */
-                VLayout.prototype.addPanel = function (options, container) {
-                    var element = document.createElement('div'),
-                        panels = this.panels,
-                        index = panels.length;
+                                return panel.options.minHeight;
+                            };
 
-                    options = util.extend({
-                        index: index
-                    }, options);
-
-                    panels.push(new VPanel(options, element, this.theme));
-
-                    container.appendChild(element);
-                };
-
-                /**
-                 * Add multiple panel
-                 * @param {PanelOptions[]} options - panel options list
-                 * @param {HTMLElement} container - container element
-                 */
-                VLayout.prototype.addPanels = function (options, container) {
-                    var self = this,
-                        frag = document.createDocumentFragment();
-
-                    util.forEach(options, function (option) {
-                        self.addPanel(option, frag);
-                    });
-
-                    container.appendChild(frag);
-                };
-
-                /**
-                 * Get a panel by name
-                 * @param {string} name - panel's name
-                 * @returns {VPanel}
-                 */
-                VLayout.prototype.getPanelByName = function (name) {
-                    var found;
-                    util.forEach(this.panels, function (panel) {
-                        if (panel.name === name) {
-                            found = panel;
+                        for (cursor = this.prevPanel(splPanel);
+                            util.isExisty(cursor);
+                            cursor = this.prevPanel(cursor)) {
+                            upper += func(cursor);
                         }
-                    });
 
-                    return found;
-                };
+                        for (cursor = this.nextPanel(splPanel);
+                            util.isExisty(cursor);
+                            cursor = this.nextPanel(cursor)) {
+                            below += func(cursor);
+                        }
 
-                module.exports = VLayout;
+                        return [upper, below];
+                    };
+
+                    /**********
+                     * Drag Handlers
+                     **********/
+
+                    /**
+                     * Drag start schedule handler
+                     * @param {object} e - drag start schedule data
+                     */
+                    VLayout.prototype._onDragStart = function (e) {
+                        var oEvent = e.originEvent,
+                            target = e.target,
+                            splIndex = domutil.getData(target, 'panelIndex'),
+                            splPanel = this.panels[splIndex],
+                            splHeight = splPanel.getHeight(),
+                            splOffsetY = domevent.getMousePosition(oEvent, target)[1],
+                            mouseY = domevent.getMousePosition(oEvent, this.container)[1],
+                            guideElement = this._initializeGuideElement(target, mouseY);
+
+                        splPanel.addClass(config.classname('splitter-focused'));
+
+                        this._dragData = {
+                            splPanel: splPanel,
+                            splOffsetY: splOffsetY,
+                            guideElement: guideElement,
+                            startY: mouseY - splOffsetY,
+                            minY: 0,
+                            maxY: this.getViewBound().height - splHeight
+                        };
+
+                        if (!util.browser.msie) {
+                            domutil.addClass(document.body, config.classname('resizing'));
+                        }
+                    };
+
+                    /**
+                     * Drag schedule handler
+                     * @param {object} e - drag schedule data
+                     */
+                    VLayout.prototype._onDrag = function (e) {
+                        var dragData = this._dragData,
+                            mouseY = domevent.getMousePosition(e.originEvent, this.container)[1];
+
+                        mouseY = common.limit(mouseY - dragData.splOffsetY, [dragData.minY], [dragData.maxY]);
+
+                        this._refreshGuideElement(dragData.guideElement, mouseY);
+                    };
+
+                    /**
+                     * Drag end schedule handler
+                     * @fires VLayout#resize
+                     * @param {object} e - dragend schedule data
+                     */
+                    VLayout.prototype._onDragEnd = function (e) {
+                        var dragData = this._dragData,
+                            asideMinMax = this._getMouseYAdditionalLimit(dragData.splPanel),
+                            mouseY = domevent.getMousePosition(e.originEvent, this.container)[1];
+
+                        // mouseY value can't exceed summation of splitter height and panel's minimum height based on target splitter.
+                        mouseY = common.limit(
+                            mouseY - dragData.splOffsetY,
+                            [dragData.minY + asideMinMax[0]],
+                            [dragData.maxY - asideMinMax[1]]
+                        );
+
+                        this._resize(dragData.splPanel, dragData.startY, mouseY);
+
+                        /**
+                         * @event VLayout#resize
+                         * @type {object}
+                         * @property {number[]} layoutData - layout data after resized
+                         */
+                        this.fire('resize', {
+                            layoutData: this.getLayoutData()
+                        });
+
+                        this._dragData = null;
+                        this._clearGuideElement(dragData.guideElement);
+                        dragData.splPanel.removeClass(config.classname('splitter-focused'));
+                        domutil.removeClass(document.body, config.classname('resizing'));
+                    };
+
+                    /**********
+                     * Methods
+                     **********/
+
+                    /**
+                     * refresh each panels
+                     */
+                    VLayout.prototype.refresh = function () {
+                        var panelToFillHeight = [];
+                        var layoutHeight = this.getViewBound().height;
+                        var usedHeight = 0;
+                        var remainHeight;
+
+                        if (!layoutHeight) {
+                            return;
+                        }
+
+                        util.forEach(this.panels, function (panel) {
+                            if (panel.options.autoHeight) {
+                                panelToFillHeight.push(panel);
+                            } else {
+                                usedHeight += panel.getHeight();
+                            }
+                        });
+
+                        remainHeight = (layoutHeight - usedHeight) / panelToFillHeight.length;
+
+                        util.forEach(panelToFillHeight, function (panel) {
+                            panel.setHeight(null, remainHeight);
+                        });
+                    };
+
+                    /**
+                     * add panel
+                     * @param {PanelOptions} options - options for panel
+                     * @param {container} [container] - container element
+                     */
+                    VLayout.prototype.addPanel = function (options, container) {
+                        var element = document.createElement('div'),
+                            panels = this.panels,
+                            index = panels.length;
+
+                        options = util.extend({
+                            index: index
+                        }, options);
+
+                        panels.push(new VPanel(options, element, this.theme));
+
+                        container.appendChild(element);
+                    };
+
+                    /**
+                     * Add multiple panel
+                     * @param {PanelOptions[]} options - panel options list
+                     * @param {HTMLElement} container - container element
+                     */
+                    VLayout.prototype.addPanels = function (options, container) {
+                        var self = this,
+                            frag = document.createDocumentFragment();
+
+                        util.forEach(options, function (option) {
+                            self.addPanel(option, frag);
+                        });
+
+                        container.appendChild(frag);
+                    };
+
+                    /**
+                     * Get a panel by name
+                     * @param {string} name - panel's name
+                     * @returns {VPanel}
+                     */
+                    VLayout.prototype.getPanelByName = function (name) {
+                        var found;
+                        util.forEach(this.panels, function (panel) {
+                            if (panel.name === name) {
+                                found = panel;
+                            }
+                        });
+
+                        return found;
+                    };
+
+                    module.exports = VLayout;
 
 
-                /***/
-}),
+                    /***/
+                }),
 
 /***/ "./src/js/common/vpanel.js":
 /*!*********************************!*\
@@ -7321,7 +7358,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/config.js":
 /*!**************************!*\
@@ -7378,7 +7415,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/controller/base.js":
 /*!***********************************!*\
@@ -7868,7 +7905,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/controller/viewMixin/core.js":
 /*!*********************************************!*\
@@ -8180,7 +8217,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/controller/viewMixin/month.js":
 /*!**********************************************!*\
@@ -8404,7 +8441,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/controller/viewMixin/week.js":
 /*!*********************************************!*\
@@ -8807,7 +8844,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/factory/calendar.js":
 /*!************************************!*\
@@ -10818,7 +10855,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/factory/controller.js":
 /*!**************************************!*\
@@ -10876,7 +10913,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/factory/monthView.js":
 /*!*************************************!*\
@@ -11148,7 +11185,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/factory/weekView.js":
 /*!************************************!*\
@@ -11532,7 +11569,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/daygrid/click.js":
 /*!*****************************************!*\
@@ -11676,7 +11713,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/daygrid/core.js":
 /*!****************************************!*\
@@ -11830,7 +11867,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/daygrid/creation.js":
 /*!********************************************!*\
@@ -12178,7 +12215,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/daygrid/creationGuide.js":
 /*!*************************************************!*\
@@ -12346,7 +12383,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/daygrid/move.js":
 /*!****************************************!*\
@@ -12641,7 +12678,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/daygrid/moveGuide.js":
 /*!*********************************************!*\
@@ -12926,10 +12963,10 @@
                     module.exports = DayGridMoveGuide;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/daygrid/resize.js":
 /*!******************************************!*\
@@ -13220,7 +13257,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/daygrid/resizeGuide.js":
 /*!***********************************************!*\
@@ -13389,10 +13426,10 @@
                     module.exports = DayGridResizeGuide;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/drag.js":
 /*!********************************!*\
@@ -13663,10 +13700,10 @@
                     module.exports = Drag;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/month/click.js":
 /*!***************************************!*\
@@ -13770,7 +13807,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/month/core.js":
 /*!**************************************!*\
@@ -13888,7 +13925,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/month/creation.js":
 /*!******************************************!*\
@@ -14253,7 +14290,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/month/creationGuide.js":
 /*!***********************************************!*\
@@ -14342,7 +14379,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/month/guide.hbs":
 /*!****************************************!*\
@@ -14448,7 +14485,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/month/guide.js":
 /*!***************************************!*\
@@ -14925,7 +14962,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/month/move.js":
 /*!**************************************!*\
@@ -15210,7 +15247,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/month/moveGuide.hbs":
 /*!********************************************!*\
@@ -15322,7 +15359,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/month/moveGuide.js":
 /*!*******************************************!*\
@@ -15529,10 +15566,10 @@
                     module.exports = MonthMoveGuide;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/month/resize.js":
 /*!****************************************!*\
@@ -15767,7 +15804,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/month/resizeGuide.js":
 /*!*********************************************!*\
@@ -15894,10 +15931,10 @@
                     module.exports = MonthResizeGuide;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/time/click.js":
 /*!**************************************!*\
@@ -16014,7 +16051,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/time/clickDayname.js":
 /*!*********************************************!*\
@@ -16117,7 +16154,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/time/core.js":
 /*!*************************************!*\
@@ -16274,7 +16311,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/time/creation.js":
 /*!*****************************************!*\
@@ -16682,7 +16719,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/time/creationGuide.js":
 /*!**********************************************!*\
@@ -16983,10 +17020,10 @@
                     module.exports = TimeCreationGuide;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/time/move.js":
 /*!*************************************!*\
@@ -17373,7 +17410,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/time/moveGuide.js":
 /*!******************************************!*\
@@ -17634,10 +17671,10 @@
                     module.exports = TimeMoveGuide;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/time/resize.js":
 /*!***************************************!*\
@@ -17968,7 +18005,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/handler/time/resizeGuide.js":
 /*!********************************************!*\
@@ -18181,10 +18218,10 @@
                     module.exports = TimeResizeGuide;
 
                     /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+                }.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/model/schedule.js":
 /*!**********************************!*\
@@ -18665,7 +18702,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/model/viewModel/scheduleViewModel.js":
 /*!*****************************************************!*\
@@ -18885,7 +18922,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/theme/standard.js":
 /*!**********************************!*\
@@ -19021,7 +19058,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/theme/theme.js":
 /*!*******************************!*\
@@ -19131,7 +19168,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/theme/themeConfig.js":
 /*!*************************************!*\
@@ -19399,7 +19436,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/layout.js":
 /*!*******************************!*\
@@ -19504,7 +19541,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/month/month.js":
 /*!************************************!*\
@@ -19859,7 +19896,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/month/more.js":
 /*!***********************************!*\
@@ -20157,7 +20194,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/month/weekdayInMonth.js":
 /*!*********************************************!*\
@@ -20350,7 +20387,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/popup/scheduleCreationPopup.js":
 /*!****************************************************!*\
@@ -21138,7 +21175,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/popup/scheduleDetailPopup.js":
 /*!**************************************************!*\
@@ -21562,7 +21599,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/helper.js":
 /*!****************************************!*\
@@ -22083,7 +22120,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/month/month.hbs":
 /*!**********************************************!*\
@@ -22163,7 +22200,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/month/more.hbs":
 /*!*********************************************!*\
@@ -22474,7 +22511,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/month/weekdayInMonth.hbs":
 /*!*******************************************************!*\
@@ -22624,7 +22661,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/month/weekdayInMonthSchedule.hbs":
 /*!***************************************************************!*\
@@ -23003,7 +23040,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/popup/scheduleCreationPopup.hbs":
 /*!**************************************************************!*\
@@ -23340,7 +23377,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/popup/scheduleDetailPopup.hbs":
 /*!************************************************************!*\
@@ -23571,7 +23608,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/week/dayGrid.hbs":
 /*!***********************************************!*\
@@ -23720,7 +23757,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/week/dayGridSchedule.hbs":
 /*!*******************************************************!*\
@@ -23903,7 +23940,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/week/daynames.hbs":
 /*!************************************************!*\
@@ -23976,7 +24013,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/week/time.hbs":
 /*!********************************************!*\
@@ -24267,7 +24304,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/week/timeGrid.hbs":
 /*!************************************************!*\
@@ -24527,7 +24564,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/week/timeGridCurrentTime.hbs":
 /*!***********************************************************!*\
@@ -24552,7 +24589,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/week/timeMoveGuide.hbs":
 /*!*****************************************************!*\
@@ -24655,7 +24692,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/template/week/timezoneSticky.hbs":
 /*!******************************************************!*\
@@ -24755,7 +24792,7 @@
                 });
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/view.js":
 /*!*****************************!*\
@@ -24982,7 +25019,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/week/dayGrid.js":
 /*!*************************************!*\
@@ -25315,7 +25352,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/week/dayGridSchedule.js":
 /*!*********************************************!*\
@@ -25447,7 +25484,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/week/dayname.js":
 /*!*************************************!*\
@@ -25636,7 +25673,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/week/time.js":
 /*!**********************************!*\
@@ -25995,7 +26032,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/week/timeGrid.js":
 /*!**************************************!*\
@@ -26734,7 +26771,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/week/week.js":
 /*!**********************************!*\
@@ -26974,7 +27011,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "./src/js/view/weekday.js":
 /*!********************************!*\
@@ -27201,7 +27238,7 @@
 
 
                 /***/
-}),
+            }),
 
 /***/ "tui-code-snippet":
 /*!******************************************************************************************************************************!*\
@@ -27213,7 +27250,7 @@
                 module.exports = __WEBPACK_EXTERNAL_MODULE_tui_code_snippet__;
 
                 /***/
-}),
+            }),
 
 /***/ "tui-date-picker":
 /*!*********************************************************************************************************************************!*\
@@ -27225,9 +27262,9 @@
                 module.exports = __WEBPACK_EXTERNAL_MODULE_tui_date_picker__;
 
                 /***/
-})
+            })
 
         /******/
-});
+    });
 });
 //# sourceMappingURL=tui-calendar.js.map
