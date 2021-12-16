@@ -15104,7 +15104,7 @@
                         model = this.baseController.schedules.items[modelID],
                         scheduleData;
 
-                    if (!modelID || !model || model.isReadOnly || model.isPending) {
+                    if (!modelID || !model || model.isReadOnly) {
                         return;
                     }
 
