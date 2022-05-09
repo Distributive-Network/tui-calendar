@@ -9839,7 +9839,7 @@
 
                     console.log('Pending filter array', pendingFilter)
                     ownSchedules.each(function (schedule) {
-                        if ((~util.inArray(schedule.calendarId, orFilterArray) || !orFilterArray.length)
+                        if ((~util.inArray(schedule.calendarId, orFilterArray))
                             && ~util.inArray(schedule.raw.procedureServiceId, procedureServiceFilterArray)
                             && (~util.inArray(schedule.isPending, [pendingFilter.pending]) || ~util.inArray(!schedule.isPending, [pendingFilter.realized]))
                             && (pendingFilter.pending || pendingFilter.realized)
