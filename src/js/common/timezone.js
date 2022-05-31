@@ -1,6 +1,5 @@
 /**
  * @fileoverview timezone
- * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 
@@ -40,7 +39,7 @@ var STANDARD_TO_DST = 1;
 var DST_TO_STANDARD = -1;
 
 /**
- * Get the timezone offset by timestampe
+ * Get the timezone offset by timestamp
  * @param {number} timestamp - timestamp
  * @returns {number} timezone offset
  * @private
@@ -52,7 +51,7 @@ function getTimezoneOffset(timestamp) {
 }
 
 /**
- * Get the custome timezone offset by timestampe
+ * Get the custom timezone offset by timestamp
  * @param {number} timestamp - timestamp
  * @returns {number} timezone offset
  * @private
