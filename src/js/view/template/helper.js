@@ -1,6 +1,7 @@
 /* eslint complexity: 0 */
 /**
  * @fileoverview Helpers for handlebar templates.
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 

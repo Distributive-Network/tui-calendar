@@ -24,6 +24,7 @@
             margin-left: 2px
 
 +prefix-classes(weekday)
+    .container,
     .grid,
     .grid-line
         height: 100%
@@ -36,6 +37,11 @@
 
     .border
         border-top: 1px solid #ddd
+
+    .container
+        position: relative
+        &>div
+            height: 100%
 
     .grid-line
         position: absolute
@@ -51,6 +57,10 @@
             line-height: 27px
             text-align: center
 
+        .grid-date-title
+            line-height: 27px
+            margin-right: 5px
+        
         .grid-more-schedules
             float: right
             display: inline-block
@@ -74,6 +84,10 @@
         position: absolute
         font-size: 12px
         overflow-y: scroll
+
+    .schedules-height-span
+        width: 1px
+        margin-left: -1px
 
     .schedule-block
         position: absolute

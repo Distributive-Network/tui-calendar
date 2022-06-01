@@ -1,6 +1,7 @@
 /* eslint no-shadow: 0 */
 /**
  * @fileoverview Controller mixin modules for day views.
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 

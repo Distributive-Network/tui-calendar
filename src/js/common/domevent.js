@@ -1,6 +1,7 @@
 /* eslint complexity: 0 */
 /**
  * @fileoverview Utility module for handling DOM events.
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 

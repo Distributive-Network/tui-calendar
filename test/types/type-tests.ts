@@ -1,10 +1,4 @@
-import Calendar, {
-    ISchedule,
-    IEventObject,
-    TEventBeforeCreateSchedule,
-    IEventWithCreationPopup,
-    IEventWithoutCreationPopup, IMonthGuide
-} from "tui-calendar";
+import Calendar, { ISchedule, IEventObject } from 'tui-calendar';
 
 const querySelectorEl = document.querySelector('#div') ||
   document.getElementById('div') ||
@@ -290,23 +284,8 @@ calendar.on({
     afterRenderSchedule(schedule) {
         console.log('afterRenderSchedule: ', schedule);
     },
-    beforeCreateSchedule(event) {
-        function isUsingCreationPopup(event: TEventBeforeCreateSchedule): event is IEventWithCreationPopup {
-            return 'useCreationPopup' in event;
-        }
-        function isMonthViewCreationGuide(guide: IEventWithoutCreationPopup['guide']): guide is IMonthGuide {
-            return 'guideElements' in guide;
-        }
-
-        if (!isUsingCreationPopup(event)) {
-            if (isMonthViewCreationGuide(event.guide)) {
-                event.guide.clearGuideElements
-            }
-        }
-
-        const ev = event as IEventWithCreationPopup;
-
-        console.log('beforeCreateSchedule: ', ev);
+    beforeCreateSchedule(schedule) {
+        console.log('beforeCreateSchedule: ', schedule);
     },
     beforeDeleteSchedule(eventSechedule) {
         console.log('beforeDeleteSchedule: ', eventSechedule);

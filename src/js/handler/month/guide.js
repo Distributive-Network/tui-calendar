@@ -1,5 +1,6 @@
 /**
  * @fileoverview Guide element controller for creation, resize in month view
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 
@@ -166,9 +167,9 @@ MonthGuide.prototype._getCoordByDate = function(date) {
 };
 
 /**
- * Get limited coordinate by supplied coordinates
+ * Get limited coordinate by supplied coodinates
  * @param {number[]} coord - coordinate need to limit
- * @param {number[]} [min] - minimum limitation of coordinate
+ * @param {number[]} [min] - minimum limitaion of coordinate
  * @param {number[]} [max] - maximum limitation of coordinate
  * @returns {number[]} limited coordiate
  */
@@ -361,7 +362,7 @@ MonthGuide.prototype._removeGuideElements = function(yCoords) {
 
 /**
  * Get excluded numbers in range
- * @param {number[]} range - the range. value must be sequential.
+ * @param {number[]} range - the range. value must be sequencial.
  * @param {number[]} numbers - numbers to check
  * @returns {number[]} excluded numbers
  */

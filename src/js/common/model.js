@@ -1,5 +1,6 @@
 /**
  * @fileoverview Mixin module for models.
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 
@@ -18,7 +19,7 @@ model = {
     /**
      * string trim
      * @param {string} str string to trim
-     * @returns {string} trimmed string
+     * @returns {string} trimed string
      */
     trim: function(str) {
         return str.replace(spaceRx, '');

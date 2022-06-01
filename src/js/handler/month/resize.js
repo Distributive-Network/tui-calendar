@@ -1,5 +1,6 @@
 /**
  * @fileoverview Module for resize schedule in month view
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 

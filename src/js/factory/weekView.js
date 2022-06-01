@@ -1,5 +1,6 @@
 /**
  * @fileoverview Factory module for WeekView
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 
@@ -257,7 +258,7 @@ module.exports = function(baseController, layoutContainer, dragHandler, options,
 
     // binding popup for schedule detail
     if (options.useDetailPopup) {
-        detailView = new ScheduleDetailPopup(layoutContainer);
+        detailView = new ScheduleDetailPopup(layoutContainer, baseController.calendars);
         onShowDetailPopup = function(eventData) {
             var scheduleId = eventData.schedule.calendarId;
             eventData.calendar = common.find(baseController.calendars, function(calendar) {
@@ -319,12 +320,12 @@ module.exports = function(baseController, layoutContainer, dragHandler, options,
             });
         });
 
-        if (options.useCreationPopup && createView) {
+        if (options.useCreationPopup) {
             createView.off('beforeCreateSchedule', onSaveNewSchedule);
             createView.destroy();
         }
 
-        if (options.useDetailPopup && detailView) {
+        if (options.useDetailPopup) {
             detailView.off('beforeDeleteSchedule', onDeleteSchedule);
             detailView.destroy();
         }

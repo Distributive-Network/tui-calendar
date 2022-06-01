@@ -1,5 +1,6 @@
 /**
  * @fileoverview Layout view. wrap all view containers at outside.
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 
@@ -19,14 +20,19 @@ var View = require('./view');
 function Layout(container, theme) {
     container = domutil.appendHTMLElement('div', container, config.classname('layout'));
 
-    View.call(this, container);
+    /**
+     * @type {HTMLElement}
+     */
+    this.container = container;
 
+    /*eslint-disable*/
     /**
      * @type {Collection} Child view collection.
      */
     this.children = new Collection(function(childView) {
         return childView.viewName;
     });
+    /* eslint-enable*/
 
     /**
      * @type {Theme}

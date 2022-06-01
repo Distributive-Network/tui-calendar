@@ -1,5 +1,6 @@
 /**
  * @fileoverview Floating layer module
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 
@@ -12,7 +13,7 @@ var config = require('../config'),
  * @constructor
  * @extends {View}
  * @param {object} options - options for floating layer module
- * @param {HTMLElement} container - parent container for floating layer
+ * @param {HTMLElement} container - parent continer for floating layer
  */
 function FloatingLayer(options, container) {
     var sibling = container[FloatingLayer.PROP_KEY],

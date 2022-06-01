@@ -1,5 +1,6 @@
 /**
  * @fileoverview Module for Time.Move effect while dragging.
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 

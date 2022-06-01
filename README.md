@@ -6,7 +6,7 @@
 [![npm](https://img.shields.io/npm/v/tui-calendar.svg)](https://www.npmjs.com/package/tui-calendar)
 [![GitHub license](https://img.shields.io/github/license/nhn/tui.calendar.svg)](https://github.com/nhn/tui.calendar/blob/master/LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/nhn/tui.project-name/labels/help%20wanted)
-[![code with hearth by NHN Cloud](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-NHN_Cloud-ff1414.svg)](https://github.com/nhn)
+[![code with hearth by NHN](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-NHN-ff1414.svg)](https://github.com/nhn)
 
 ![tui-calendar-demo-nhn-corp](https://user-images.githubusercontent.com/43128697/55609612-0c19db00-57bc-11e9-849b-f42a9bd8c591.gif)
 
@@ -113,7 +113,7 @@ $ bower install tui-calendar#<tag> # Specific version
 ```
 
 ### Via Contents Delivery Network (CDN)
-TOAST UI products are available over the CDN powered by [NHN Cloud](https://www.toast.com).
+TOAST UI products are available over the CDN powered by [TOAST Cloud](https://www.toast.com).
 
 You can use the CDN as below.
 
@@ -156,9 +156,8 @@ tui-calendar/
 
 ## 🛍 Wrappers
 
-* [toast-ui.vue-calendar](https://github.com/nhn/toast-ui.vue-calendar) **Vue** wrapper component is implemented by [NHN Cloud](https://github.com/nhn).
-* [toast-ui.react-calendar](https://github.com/nhn/toast-ui.react-calendar) **React** wrapper component is powered by [NHN Cloud](https://github.com/nhn).
-* [ngx-mat-tui-calendar](https://github.com/ron2015schmitt/ngx-mat-tui-calendar) **Angular 12**, **Material Design** wrapper component by [@ron2015schmitt](https://github.com/ron2015schmitt)
+* [toast-ui.vue-calendar](https://github.com/nhn/toast-ui.vue-calendar) **Vue** wrapper component is implemented by [NHN](https://github.com/nhn).
+* [toast-ui.react-calendar](https://github.com/nhn/toast-ui.react-calendar) **React** wrapper component is powered by [NHN](https://github.com/nhn).
 * [ngx-tui-dev](https://github.com/brnrds/ngx-tui-dev): **TypeScript** and **Angular 5** wrapper component is being implemented(ref [#82](https://github.com/nhn/tui.calendar/issues/82)) by [@amanvishnani](https://github.com/amanvishnani) and [@brnrds](https://github.com/brnrds). Thanks for their effort.
 * [vue-tui-calendar](https://github.com/lkmadushan/vue-tuicalendar): **Vue** wrapper component is being implemented(ref [#81](https://github.com/nhn/tui.calendar/issues/81)) by [@lkmadushan](https://github.com/lkmadushan). Thanks for their effort.
 * [tui-calendar-react](https://github.com/IniZio/react-tui-calendar): **React** wrapper component is provided(ref #[134](https://github.com/nhn/tui.calendar/issues/134)) by [@IniZio](https://github.com/IniZio). Thanks for his effort.
@@ -256,7 +255,7 @@ Run npm scripts and develop yourself with the following process.
 
 Fork `develop` branch into your personal repository.
 Clone it to local computer. Install node modules.
-Before starting development, you should check if there are any errors.
+Before starting development, you should check to haveany errors.
 
 ``` sh
 $ git clone https://github.com/{owner}/tui.calendar.git
@@ -268,7 +267,7 @@ $ npm run test
 ### Develop
 
 Let's start development!
-You can see your code reflected as soon as you save the code by running a server.
+You can see your code is reflected as soon as you saving the codes by running a server.
 Don't miss adding test cases and then make green rights.
 
 #### Run webpack-dev-server
@@ -285,10 +284,10 @@ $ npm run test
 
 ### Pull Request
 
-Before uploading your PR, run test one last time to check if there are any errors. 
-If it has no errors, commit and then push it!
+Before PR, check to test lastly and then check any errors.
+If it has no error, commit and then push it!
 
-For more information on PR's steps, please see links in the Contributing section.
+For more information on PR's step, please see links of Contributing section.
 
 ## 💬 Contributing
 
@@ -300,8 +299,8 @@ For more information on PR's steps, please see links in the Contributing section
 ## 🔩 Dependency
 
 * [tui-code-snippet](https://github.com/nhn/tui.code-snippet) >= 1.5.0
-* [tui-date-picker](https://github.com/nhn/tui.date-picker) >= 4.3.0 is optional.
-* [tui-time-picker](https://github.com/nhn/tui.time-picker) >= 2.1.4 is optional.
+* [tui-date-picker](https://github.com/nhn/tui.date-picker) >= 4.0.2 is optional.
+* [tui-time-picker](https://github.com/nhn/tui.time-picker) >= 2.0.1 is optional.
 
 ## 🍞 TOAST UI Family
 * [TOAST UI Grid](https://github.com/nhn/tui.grid)
@@ -311,7 +310,7 @@ For more information on PR's steps, please see links in the Contributing section
 * [TOAST UI Components](https://github.com/nhn?q=tui)
 
 ## 🚀 Used By
-* [NHN Dooray! - Collaboration Service (Project, Messenger, Mail, Calendar, Drive, Wiki, Contacts)](https://dooray.com)
+* [TOAST Dooray! - Collaboration Service (Project, Messenger, Mail, Calendar, Drive, Wiki, Contacts)](https://dooray.com)
 * [NCP - Commerce Platform](https://www.e-ncp.com/)
 * [shopby](https://www.godo.co.kr/shopby/main.gd)
 * [payco-shopping](https://shopping.payco.com/)
@@ -320,4 +319,4 @@ For more information on PR's steps, please see links in the Contributing section
 
 ## 📜 License
 
-This software is licensed under the [MIT](https://github.com/nhn/tui.calendar/blob/master/LICENSE) © [NHN Cloud](https://github.com/nhn).
+This software is licensed under the [MIT](https://github.com/nhn/tui.calendar/blob/master/LICENSE) © [NHN](https://github.com/nhn).

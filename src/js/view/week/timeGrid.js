@@ -1,5 +1,6 @@
 /**
  * @fileoverview View for rendered schedules by times.
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 

@@ -1,6 +1,7 @@
 /* eslint-disable complexity */
 /**
  * @fileoverview Module for calculate date by month view and mouse event object
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 

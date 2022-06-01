@@ -3,6 +3,7 @@
  * Class for represent two dimensional x, y coordinates.
  *
  * It suppliy a group of functions for manipulate coordinates.
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  * @example
  * var p = point(10, 10);
  * var r1 = p.add(Point(5, 5));
@@ -241,7 +242,7 @@ Point.prototype.ceil = function() {
 };
 
 /**
- * Ceil self coordinates.
+ * Ceil self coodinates.
  * @returns {Point} Point calculated.
  */
 Point.prototype._ceil = function() {
@@ -329,7 +330,7 @@ Point.prototype.toString = function() {
 };
 
 /**
- * Return coordinates to array. [x, y]
+ * Return coodinates to array. [x, y]
  * @returns {number[]} coordinate array.
  */
 Point.prototype.toArray = function() {

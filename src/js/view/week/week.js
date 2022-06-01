@@ -1,5 +1,6 @@
 /**
  * @fileoverview View of days UI.
+ * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 
