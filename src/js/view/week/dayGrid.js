@@ -1,6 +1,5 @@
 /**
  * @fileoverview DayGrid in weekly view
- * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 
@@ -19,7 +18,7 @@ var mmax = Math.max,
 
 /**
  * @constructor
- * @extends {Weekday}
+ * @extends {View}
  * @param {string} name - view name
  * @param {object} options - options for DayGridSchedule view
  * @param {number} [options.heightPercent] - height percent of view

@@ -1,6 +1,5 @@
 /**
  * @fileoverview The all configuration of a theme
- * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 
@@ -11,6 +10,8 @@ var common = require('../common/common');
 
 /**
  * Theme manager
+ *
+ * @constructor
  * @param {object} customTheme - custom theme
  */
 function Theme(customTheme) {

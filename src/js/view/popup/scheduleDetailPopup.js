@@ -1,7 +1,6 @@
 /* eslint-disable vars-on-top */
 /**
  * @fileoverview Floating layer for showing detail schedule
- * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
 'use strict';
 
@@ -209,7 +208,7 @@ ScheduleDetailPopup.prototype._getScheduleModel = function(scheduleViewModel) {
 };
 
 /**
- * Set popup position and arrow direction to apear near guide element
+ * Set popup position and arrow direction to appear near guide element
  * @param {Event} event - creation guide element
  */
 ScheduleDetailPopup.prototype._setPopupPositionAndArrowDirection = function(event) {

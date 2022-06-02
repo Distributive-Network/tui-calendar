@@ -1,7 +1,7 @@
 {
   "name": "tui-calendar",
-  "author": "NHN FE Development Lab <dl_javascript@nhn.com>",
-  "version": "1.13.1",
+  "author": "NHN Cloud. FE Development Lab <dl_javascript@nhn.com>",
+  "version": "1.15.3",
   "main": "dist/tui-calendar.js",
   "types": "index.d.ts",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "nhn",
-    "nhnent",
+    "nhn cloud",
     "toast",
     "tui",
     "component",
@@ -46,14 +46,15 @@
     "eslint-loader": "^2.0.0",
     "eslint-plugin-jasmine": "^2.10.1",
     "eslint-plugin-prettier": "^3.1.4",
+    "got": "^11.8.2",
     "handlebars": "^4.7.6",
     "handlebars-template-loader": "^1.0.0",
     "istanbul-instrumenter-loader": "^3.0.1",
     "jasmine-core": "^2.99.1",
     "jsdoc": "^3.5.5",
-    "karma": "^5.1.0",
+    "karma": "^6.3.14",
     "karma-chrome-launcher": "^2.2.0",
-    "karma-cli": "^1.0.1",
+    "karma-cli": "^2.0.0",
     "karma-coverage": "^2.0.3",
     "karma-fixture": "^0.2.6",
     "karma-html2js-preprocessor": "^1.1.0",
@@ -98,11 +99,13 @@
     "eslint": "eslint ./src",
     "tslint": "tslint index.d.ts",
     "doc:serve": "tuidoc --serv",
-    "doc": "tuidoc"
+    "doc": "tuidoc",
+    "publish:cdn": "node scripts/publishToCDN.js"
   },
   "dependencies": {
+    "dompurify": "^2.3.1",
     "tui-code-snippet": "^1.5.0",
-    "tui-date-picker": "^4.0.2",
-    "tui-time-picker": "^2.0.1"
+    "tui-date-picker": "^4.3.0",
+    "tui-time-picker": "^2.1.4"
   }
 }
