@@ -11347,8 +11347,8 @@ module.exports = {
                             && ~util.inArray(schedule.raw.procedureServiceId, procedureServiceFilterArray)
                             && (~util.inArray(schedule.isPending, [pendingFilter.pending]) || ~util.inArray(!schedule.isPending, [pendingFilter.realized]))
                             && (pendingFilter.pending || pendingFilter.realized)
-                            && (~util.inArray(schedule.surgicalPriorityClassificationCode, [priorityFilter.urgent]) || ~util.inArray(!schedule.surgicalPriorityClassificationCode, [pendingFilter.nonUrgent]))
-                            && (pendingFilter.urgent || pendingFilter.nonUrgent)
+                            && (~util.inArray(schedule.surgicalPriorityClassificationCode, [priorityFilter.emergent]) || ~util.inArray(!schedule.surgicalPriorityClassificationCode, [pendingFilter.nonUrgent]))
+                            && (pendingFilter.emergent || pendingFilter.nonUrgent)
                             && ~util.inArray(schedule.raw.surgeonIdentifier, surgeons)
                             && schedule.start >= startDate && schedule.end <= endDate
                         ) {
