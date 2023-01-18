@@ -11335,7 +11335,7 @@ module.exports = {
 
                     const procedureServiceFilterArray = filterObj['procedureServiceIds']
                     const pendingFilter = filterObj['pendingView']
-                    const surgeons = filterObj['employees']
+                    const surgeons = filterObj['surgeonIds']
                     const startDate = filterObj['dateRange'][0]
                     const endDate = filterObj['dateRange'][1]
 
