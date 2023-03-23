@@ -11343,12 +11343,11 @@ module.exports = {
                     console.log('Pending filter array', pendingFilter)
                     console.log('Priority filter', priorityFilter)
                     ownSchedules.each(function (schedule) {
-                        console.log(schedule)
                         if ((~util.inArray(schedule.calendarId, orFilterArray))
                             && ~util.inArray(schedule.raw.procedureServiceId, procedureServiceFilterArray)
                             && (~util.inArray(schedule.isPending, [pendingFilter.pending]) || ~util.inArray(!schedule.isPending, [pendingFilter.realized]))
                             && (pendingFilter.pending || pendingFilter.realized)
-                            && (~util.inArray(schedule.surgicalPriorityClassificationCode === 'urgent', [priorityFilter.urgent]) || ~util.inArray(schedule.surgicalPriorityClassificationCode === 'nonUrgent', [priorityFilter.nonUrgent]))
+                            && (~util.inArray(schedule.raw.surgicalPriorityClassificationCode === 'urgent', [priorityFilter.urgent]) || ~util.inArray(schedule.raw.surgicalPriorityClassificationCode === 'nonUrgent', [priorityFilter.nonUrgent]))
                             && (priorityFilter.urgent || priorityFilter.nonUrgent)
                             && ~util.inArray(schedule.raw.surgeonIdentifier, surgeons)
                             && schedule.start >= startDate && schedule.end <= endDate
