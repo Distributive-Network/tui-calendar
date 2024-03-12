@@ -89,10 +89,11 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
+    "prepare": "npm run bundle",
     "test": "karma start --no-single-run",
     "test:ne": "KARMA_SERVER=ne karma start",
     "test:types": "tsc --project test/types",
-    "bundle": "webpack --mode development && NODE_ENV=production webpack --mode production && node tsBannerGenerator.js",
+    "bundle": "NODE_OPTIONS=--openssl-legacy-provider webpack --mode production && node tsBannerGenerator.js",
     "serve": "webpack-dev-server --mode development --progress --inline --hot",
     "cpy-dist2doc": "mkdir -p doc/dist && cp -f -r dist doc",
     "release-note": "tuie",
@@ -107,5 +108,9 @@
     "tui-code-snippet": "^1.5.0",
     "tui-date-picker": "^4.3.0",
     "tui-time-picker": "^2.1.4"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
   }
 }
